@@ -1,4 +1,4 @@
-package com.example.projetoandroidhackaton.ui.theme
+package com.alfaumuarama.projetoandroidhackaton.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -47,7 +47,7 @@ fun ProjetoAndroidHackatonTheme(
     val colorScheme = when {
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
             val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+            dynamicLightColorScheme(context)
         }
 
         darkTheme -> DarkColorScheme

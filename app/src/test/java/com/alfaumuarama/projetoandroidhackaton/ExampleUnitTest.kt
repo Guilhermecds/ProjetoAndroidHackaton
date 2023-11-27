@@ -1,4 +1,4 @@
-package com.example.projetoandroidhackaton
+package com.alfaumuarama.projetoandroidhackaton
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.projetoandroidhackaton.ui.theme
+package com.alfaumuarama.projetoandroidhackaton.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
